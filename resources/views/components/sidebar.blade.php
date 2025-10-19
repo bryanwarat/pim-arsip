@@ -4,11 +4,11 @@
             <div class="logo-box">
                 <div class="logo-box">
                     <a href="{{ route('dashboard.index') }}" class="logo logo-light">
-                        <img src="{{ asset('assets/public/img/logo/logo-admin.png') }}" alt="logo">
+                        <img src="{{ asset('assets/public/img/logo/logo-admin.png') }}" alt="logo" height="40">
 
                     </a>
                     <a href="{{ route('dashboard.index') }}" class="logo logo-dark">
-                        <img src="{{ asset('assets/public/img/logo/logo-admin.png') }}" alt="logo">
+                        <img src="{{ asset('assets/public/img/logo/logo-admin.png') }}" alt="logo" height="40">
                     </a>
 
                 </div>

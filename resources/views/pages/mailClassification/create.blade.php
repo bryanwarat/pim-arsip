@@ -18,7 +18,7 @@
                 <form action="{{ route('mailclassification.store') }}" method="POST">
                     @csrf
                     <div class="mb-3">
-                        <label for="classification_name" class="form-label">Nama Sifat Surat (Contoh: Rahasia)</label>
+                        <label for="classification_name" class="form-label">Nama Sifat Surat</label>
                         <input type="text" class="form-control @error('classification_name') is-invalid @enderror"
                             id="classification_name" name="classification_name" value="{{ old('classification_name') }}"
                             required>

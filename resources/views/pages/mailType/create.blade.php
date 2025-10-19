@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Tambah Tipe Surat')
+@section('title', 'Tambah Jenis Surat')
 
 @section('content')
     <div class="container mt-4">
@@ -11,21 +11,21 @@
 
         <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
             <div class="flex-grow-1">
-                <h4 class="fs-18 fw-semibold m-0">Tambah Tipe Surat Baru</h4>
+                <h4 class="fs-18 fw-semibold m-0">Tambah Jenis Surat Baru</h4>
             </div>
         </div>
 
         <div class="card">
             <div class="card-header">
-                Form Data Tipe Surat
+                Form Data Jenis Surat
             </div>
             <div class="card-body">
                 {{-- Form action diarahkan ke route store --}}
                 <form action="{{ route('mailtype.store') }}" method="POST">
                     @csrf
                     <div class="mb-3">
-                        <label for="type_name" class="form-label">Nama Tipe Surat</label>
-                        {{-- Field input untuk nama tipe surat --}}
+                        <label for="type_name" class="form-label">Nama Jenis Surat</label>
+                        {{-- Field input untuk nama Jenis Surat --}}
                         <input type="text" class="form-control @error('type_name') is-invalid @enderror" id="type_name"
                             name="type_name" value="{{ old('type_name') }}" required>
                         @error('type_name')

@@ -13,18 +13,18 @@
                         <div class="mb-0 p-0 p-lg-3">
 
                             <div class="mb-0 border-0 p-md-4 p-lg-0">
-                                <div class="mb-4 p-0 text-lg-start text-center">
+                                <div class="mb-4 p-0 text-center">
                                     <div class="auth-brand">
                                         <a href="{{ url('/') }}" class="logo logo-light">
                                             <span class="logo-lg">
                                                 <img src="{{ asset('assets/public/img/logo/logo.png') }}" alt="logo"
-                                                    height="24">
+                                                    height="40">
                                             </span>
                                         </a>
                                         <a href="{{ url('/') }}" class="logo logo-dark">
                                             <span class="logo-lg">
                                                 <img src="{{ asset('assets/public/img/logo/logo.png') }}" alt="logo"
-                                                    height="24">
+                                                    height="40">
                                             </span>
                                         </a>
                                     </div>
