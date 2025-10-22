@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'Input Surat Keluar Baru')
+@section('title', 'Input Surat Keluar')
 
 @section('content')
     <div class="container mt-4">
         <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
             <div class="flex-grow-1">
-                <h4 class="fs-18 fw-semibold m-0">Input Surat Keluar Baru</h4>
+                <h4 class="fs-18 fw-semibold m-0">Input Surat Keluar</h4>
             </div>
         </div>
 

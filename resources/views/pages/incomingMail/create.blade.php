@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'Input Surat Masuk Baru')
+@section('title', 'Input Surat Masuk')
 
 @section('content')
     <div class="container mt-4">
         <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
             <div class="flex-grow-1">
-                <h4 class="fs-18 fw-semibold m-0">Input Surat Masuk Baru</h4>
+                <h4 class="fs-18 fw-semibold m-0">Input Surat Masuk</h4>
             </div>
         </div>
 
@@ -103,10 +103,9 @@
                             </div>
 
                             <div class="mb-3">
-                                <label for="destination" class="form-label">Tujuan (Internal)</label>
+                                <label for="destination" class="form-label">Tujuan</label>
                                 <input type="text" class="form-control @error('destination') is-invalid @enderror"
                                     id="destination" name="destination" value="{{ old('destination') }}" required>
-                                <small class="text-muted">Tujuan atau unit penerima internal.</small>
                                 @error('destination')
                                     <div class="invalid-feedback">{{ $message }}</div>
                                 @enderror
