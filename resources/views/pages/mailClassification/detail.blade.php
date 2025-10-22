@@ -15,10 +15,7 @@
                 Informasi Lengkap
             </div>
             <div class="card-body">
-                <div class="row mb-2">
-                    <div class="col-md-4"><strong>ID</strong></div>
-                    <div class="col-md-8">{{ $classification->id }}</div>
-                </div>
+
                 <div class="row mb-2">
                     <div class="col-md-4"><strong>Nama Sifat Surat</strong></div>
                     <div class="col-md-8">{{ $classification->classification_name }}</div>

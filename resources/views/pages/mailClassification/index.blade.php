@@ -24,7 +24,6 @@
                     <table id="classificationTable" class="table table-bordered table-striped align-middle w-100">
                         <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Sifat Surat</th>
                                 <th>Aksi</th>
                             </tr>
@@ -74,10 +73,6 @@
                 serverSide: true,
                 ajax: '{{ route('mailclassification.data') }}', // PENTING: Panggil getData()
                 columns: [{
-                        data: 'id',
-                        name: 'id'
-                    },
-                    {
                         data: 'classification_name',
                         name: 'classification_name'
                     },

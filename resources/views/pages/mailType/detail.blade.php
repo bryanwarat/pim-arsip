@@ -15,10 +15,7 @@
                 Informasi Lengkap Jenis Surat
             </div>
             <div class="card-body">
-                <div class="row mb-2">
-                    <div class="col-md-4"><strong>ID</strong></div>
-                    <div class="col-md-8">{{ $mailType->id }}</div>
-                </div>
+
                 <div class="row mb-2">
                     <div class="col-md-4"><strong>Nama Jenis Surat</strong></div>
                     <div class="col-md-8">{{ $mailType->type_name }}</div>

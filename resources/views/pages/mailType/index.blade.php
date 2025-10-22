@@ -25,7 +25,6 @@
                     <table id="mailTypeTable" class="table table-bordered table-striped align-middle w-100">
                         <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Jenis Surat</th>
                                 <th>Aksi</th>
                             </tr>
@@ -76,10 +75,6 @@
                 // PENTING: Memanggil rute yang mengandung method getData()
                 ajax: '{{ route('mailtype.data') }}',
                 columns: [{
-                        data: 'id',
-                        name: 'id'
-                    },
-                    {
                         data: 'type_name',
                         name: 'type_name'
                     },
