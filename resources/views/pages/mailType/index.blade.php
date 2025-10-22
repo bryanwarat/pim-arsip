@@ -15,7 +15,7 @@
             <div class="flex-grow-1">
                 <h4 class="fs-18 fw-semibold m-0">Daftar Jenis Surat</h4>
             </div>
-            <a href="{{ route('mailtype.create') }}" class="btn btn-primary btn-sm">Tambah Jenis Surat Baru</a>
+            <a href="{{ route('mailtype.create') }}" class="btn btn-primary btn-sm">Tambah Jenis Surat</a>
         </div>
 
         <div class="card">

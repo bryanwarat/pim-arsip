@@ -15,7 +15,7 @@
             <div class="flex-grow-1">
                 <h4 class="fs-18 fw-semibold m-0">Daftar Surat Keluar</h4>
             </div>
-            <a href="{{ route('outgoingmail.create') }}" class="btn btn-primary btn-sm">Input Surat Keluar Baru</a>
+            <a href="{{ route('outgoingmail.create') }}" class="btn btn-primary btn-sm">Input Surat Keluar</a>
         </div>
 
         <div class="card">
